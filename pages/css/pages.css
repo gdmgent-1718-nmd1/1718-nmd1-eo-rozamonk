@@ -20,4 +20,8 @@ table {
     padding-right: 200px;
 }
 
+h2,h3 {
+    font-family:'Roboto', sans-serif;
+}
+
 /* Voeg jouw css hieraan toe */
