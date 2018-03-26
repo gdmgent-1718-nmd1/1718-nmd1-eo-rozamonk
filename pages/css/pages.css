@@ -15,4 +15,9 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
+table {
+    padding-left: 8Opx;
+    padding-right: 200px;
+}
+
 /* Voeg jouw css hieraan toe */
