@@ -9,6 +9,7 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    background-color: #4c6ecd05;
 }
 
 img {
@@ -22,6 +23,41 @@ table {
 
 h2,h3 {
     font-family:'Roboto', sans-serif;
+    color: #263531;
+    padding-right: 20px;
 }
+
+h3 {
+    padding-top: 30px; 
+    padding-left: 20px;
+}
+
+td {
+    width: 2000px;
+    padding-right: 60px;
+    height: 20px;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #4c6ecd21;
+}
+
+.scenario  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.naam {
+    background-color: #4c6ecd21;
+    padding: 5px;
+    width: 790px;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+
 
 /* Voeg jouw css hieraan toe */
