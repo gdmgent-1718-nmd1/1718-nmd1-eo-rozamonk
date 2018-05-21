@@ -21,17 +21,13 @@ table {
     padding-right: 200px;
 }
 
-h2,h3 {
+h2 {
     font-family:'Roboto', sans-serif;
     color: #263531;
     padding-right: 20px;
     font-size: 20px;
-    font
-}
-
-h3 {
-    padding-top: 30px; 
     padding-left: 20px;
+    line-height: 40px;
 }
 
 td {
@@ -49,7 +45,6 @@ tr:nth-child(even) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
 
 .naam {
@@ -60,10 +55,10 @@ tr:nth-child(even) {
     padding-right: 10px;
 }
 
-/*.artiesten { 
-    display: flex;
-    flex-direction: row;
-}*/
+.artiesten img{ 
+
+    margin-left: 20px;
+}
 
 a {
     text-decoration: none;
@@ -83,6 +78,9 @@ a:hover {
 
 p {
     margin-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .none {
@@ -185,4 +183,60 @@ img {
 
 img:hover {
     background-color: rgba(209, 118, 32, 0.582);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.Oswald {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.roboto {
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.helvetica {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.shadows {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.blauw {
+    background-color: #4c6ecd;
+    color: white;
+}
+
+.groen {
+    background-color: #227705;
+    color: white;
+}
+
+.wit {
+    background-color: #f2ecd5;
+}
+
+.oker {
+    background-color: #e1b305;
+}
+
+.oranje {
+    background-color: #e38a5a;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

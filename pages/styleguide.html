@@ -7,17 +7,24 @@
     <title>Digital Styleguide - Eindopdracht NMD-I</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 </head>
 <body>
 <h1>Digital Styleguide</h1>
     
-<h3>TEKST</h3>
+<h2>TEKST</h2>
         <p>Mijn tekst bestaat vooral uit de standaard lettertypes zodat de site rap zou laden voor iedereen.
-            De titels dragen de naam 'Futura Condensed Medium', de  ondertitels
+            Ik wou dat de titels zouden bestaan uit 'Futura Condensed Medium', maar jammergenoeg lukt het
+            niet om die in te brengen in css en heb daarom een letterype gekozen dat er op lijkt
+            namelijk Oswald. De  ondertitels
             bestaan uit het lettertype 'Roboto Regular' wat dus mijn verplicht lettertype is en staan iedere 
             keer volledig in drukletters. Mijn gewone, doorlopende tekst heeft als lettertype
             Helvetica Neue light en dan heb ik nog één quote op mijn site dat ik ook wel extra 
-            in de kijker wil zetten door het een ander lettertype te gevene, namelijk 'Bradley Hand'.</p>
+            in de kijker wil zetten door het een ander lettertype te geven, daar wou ik 'Bradley Hand' voor gebruiken,
+            maar ook hier is hetzelfde probleem opgetreden als bij 'Futura' dus heb ik die vervangen door 'Shadows Into Light'.
+        </p>
             <table>
             <tr>
                 <th>Lettertype</th>
@@ -25,34 +32,34 @@
                 <th>Corpsgrootte</th>
                 <th>Interlinie</th>
             </tr>
-            <tr class='futura'>
-                <td>Futura Condensed Medium</td>
+            <tr class='Oswald'>
+                <td>Oswald</td>
                 <td>Titel</td>
-                <td> <!-- ...--> </td>
-                <td> <!-- ...--> </td>
+                <td>30px</td>
+                <td>35px</td>
             </tr>
             <tr class='roboto'>
                 <td>Roboto Regular</td>
                 <td>Ondertitel</td>
-                <td> <!-- ...--> </td>
-                <td> <!-- ...--> </td>
+                <td>20px</td>
+                <td>40px</td>
             </tr>
             <tr class='helvetica'>
-                <td>Helvetica Neue light</td>
+                <td>Helvetica</td>
                 <td>Doorlopende tekst</td>
-                <td> <!-- ...--> </td>
-                <td> <!-- ...--> </td>
+                <td>15px</td>
+                <td>25px</td>
             </tr>
-            <tr class='bradley'>
-                <td>Bradley Hand</td>
+            <tr class='shadows'>
+                <td>Shadows Into Light</td>
                 <td>Quote</td>
-                <td> <!-- ...--> </td>
-                <td> <!-- ...--> </td>
+                <td>25px</td>
+                <td>28px</td>
             </tr>
             </table>
         </p>
     
-<h3>KLEUREN</h3>
+<h2>KLEUREN</h2>
        <p>We zien 3 relatief warme kleuren en een koude kleur. Dat is op zich meestal al een mooi en geslaagd
         contrast. Daarbij heb ik er ook nog groen bijgesmeten omdat het wat duidt op de natuur. Op de bossen
         waarin we ons zullen bevinden en het festival vieren. Samen vormen ze een vrolijk kleurenpalet.</p> 
@@ -64,38 +71,38 @@
         <th>HSL</th>
     </tr>
     <tr>
-        <td>Blauw</td>
+        <td class="blauw">Blauw</td>
         <td>rgb(76,110,205)</td>
         <td>#4c6ecd</td>
         <td>hsl(224, 56%, 55%)</td>
     </tr>
     <tr>
-        <td>Donker groen</td>
+        <td class="groen">Donker groen</td>
         <td>rgb(34,119,5)</td>
         <td>#227705</td>
         <td>hsl(105, 91,9%, 24.3%)</td>
     </tr>
     <tr>
-        <td>Gebroken wit</td>
+        <td class="wit">Gebroken wit</td>
         <td>rgb(242,236,213)</td>
         <td>#f2ecd5</td>
         <td>hsl(48, 52,7%, 89.2%)</td>
     </tr>
     <tr>
-        <td>Oker</td>
+        <td class="oker">Oker</td>
         <td>rgb(225,179,58)</td>
         <td>#e1b305</td>
         <td>hsl(47, 95.7%, 45,1%)</td>
     </tr>
     <tr>
-        <td>Licht oranje</td>
+        <td class="oranje">Licht oranje</td>
         <td>rgb(227,138,90)</td>
         <td>#e38a5a</td>
         <td>hsl(21, 71%, 62.2%)</td>
     </tr>
     </table>
 
-<h3>LOGO</h3>
+<h2>LOGO</h2>
     <p>Mijn logo is een woordlogo, opgebouwd uit de 'hippie letters'.
         Het schenkt herkendaarheid van de hippiejaren en kan op deze manier al 
         een soort reclame op zich zijn.
@@ -106,7 +113,7 @@
     </p>
     <img src="images/woodstock11.svg" alt="logo woodstock">
 
-<h3>KNOPPEN EN ICONEN</h3>
+<h2>KNOPPEN EN ICONEN</h2>
     <p>Het print- en muziek icoontje zouden dat ik gemaakt heb, zouden een 
     ander kleurtje moeten krijgen iedere keer als men er over gaat met de muis.</p> 
     </br> 
