@@ -9,7 +9,7 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
-    background-color: #4c6ecd05;
+    background-color: #f2ecd5;
 }
 
 img {
@@ -23,7 +23,7 @@ table {
 
 h2 {
     font-family:'Roboto', sans-serif;
-    color: #263531;
+    color: #000000; 
     padding-right: 20px;
     font-size: 20px;
     padding-left: 20px;
@@ -81,6 +81,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 25px;
+    color: #227705;
 }
 
 .none {
@@ -138,7 +139,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     color: #e1b33a;
-    background-color: #247710;
+    background-color: #227705;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -150,7 +151,7 @@ p {
 .element:before {
   content: '';
   position: absolute;
-  border: #247710 solid 4px;
+  border: #227705 solid 4px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -174,21 +175,41 @@ img {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    overflow: visible;
+    overflow:visible;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: color; 
     transition-property: color;
+    transition: all 0.3s ease;
 }
 
-img:hover {
+.fotobox img:hover {
     background-color: rgba(209, 118, 32, 0.582);
+    border-radius: 135px;
+}
+img.foto:hover{
+    opacity:0.7;
+    background-color: rgba(209, 118, 32, 0.582);
+}
+.fotobox:hover:before{
+    border-radius: 135px;
+}
+img.foto:before{
+    content:"";
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgba(209, 118, 32, 0.582);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     line-height: 35px;
+    color: black;
 }
 
 .Oswald {
@@ -239,4 +260,31 @@ h1 {
 
 th {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigatiebalk p {
+    color: #e1b305;
+}
+
+table {
+    color: black;
+}
+.fotobox{
+    display: inline;
+    position: relative;
+}
+.fotobox:before{
+    content:"";
+    width: 360px;
+    height: 270px;
+    background-color: #e38a5a;
+    overflow: hidden;
+    position: absolute;
+    top: -124px;
+    left: 20px;
+}
+.fotobox img{
+    width: 360px;
+    height: 270px;
+    object-fit: cover;
 }
