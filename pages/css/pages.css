@@ -69,6 +69,9 @@ th {
     padding-bottom: 10px;
     padding-top:20px;
     margin-bottom: 50px;
+    border-left-style: outset;
+    border-left-color: #4c6ecd;
+    border-left-width: 7px;
 }
 
 .artiesten img{ 
@@ -198,15 +201,24 @@ img {
     -webkit-transition-property: color; 
     transition-property: color;
     transition: all 0.3s ease;
+    
+}
+
+.fotobox img {
+    border-left-style: outset;
+    border-left-color: #4c6ecd;
+    border-left-width: 5px;
 }
 
 .fotobox img:hover {
     background-color:#e38a5a;
+ 
     
 }
 img.foto:hover{
     opacity:0.3;
     background-color:#e38a5a;
+
 }
 
 img.foto:before{
@@ -218,6 +230,7 @@ img.foto:before{
     position: absolute;
     top: 0;
     left: 0;
+
 }
 
 h1 {
