@@ -72,6 +72,7 @@ th {
     border-left-style: outset;
     border-left-color: #4c6ecd;
     border-left-width: 7px;
+    box-shadow: 3px 3px 1px 3px #888888;
 }
 
 .artiesten img{ 
