@@ -35,10 +35,24 @@ td {
     padding-right: 60px;
     height: 20px;
     vertical-align: top;
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: #22770562;
 }
 
 tr:nth-child(even) {
-    background-color: #4c6ecd21;
+    background-color: #f2ecd5;
+}
+
+tr:nth-child(even):hover {
+    background-color: #e1b10536;
+}
+
+th {
+    background-color: #227705;
+    color: white;
 }
 
 .scenario  {
@@ -48,11 +62,13 @@ tr:nth-child(even) {
 }
 
 .naam {
-    background-color: #4c6ecd21;
-    padding: 5px;
+    background-color: #22770511;
     width: 790px;
     padding-left: 100px;
     padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top:20px;
+    margin-bottom: 50px;
 }
 
 .artiesten img{ 
@@ -73,7 +89,7 @@ a:visited {
 }
 
 a:hover {
-    color: #4c6ecd;
+    color: #227705;
 }
 
 p {
@@ -94,7 +110,7 @@ p {
     margin-top:20px; 
     margin-bottom: 20px;
     padding: 3px;
-    margin-right: 330px;
+    margin-right: 142px;
     background-color: #f9f2db;
 }
 
@@ -103,8 +119,9 @@ p {
     margin:2px;
     padding-top: 10px;
     padding-left: 30px;
-    padding-right: 32px;
+    padding-right: 30px;
     background-color: #247710;
+    color:#e1b33a;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -184,22 +201,20 @@ img {
 }
 
 .fotobox img:hover {
-    background-color: rgba(209, 118, 32, 0.582);
-    border-radius: 135px;
+    background-color:#e38a5a;
+    
 }
 img.foto:hover{
-    opacity:0.7;
-    background-color: rgba(209, 118, 32, 0.582);
+    opacity:0.3;
+    background-color:#e38a5a;
 }
-.fotobox:hover:before{
-    border-radius: 135px;
-}
+
 img.foto:before{
     content:"";
     width: 400px;
     height: 400px;
     overflow: hidden;
-    background-color: rgba(209, 118, 32, 0.582);
+    background-color: #e38a5a;
     position: absolute;
     top: 0;
     left: 0;
@@ -287,4 +302,30 @@ table {
     width: 360px;
     height: 270px;
     object-fit: cover;
+}
+
+
+.ws {
+    margin-left: -100px;
+    margin-right: 200px;
+}
+
+.print {
+    margin-left: -100px;
+    margin-right: 500px;
+}
+
+.gr {
+    color: #227705;}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
 }

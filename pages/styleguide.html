@@ -14,8 +14,9 @@
 <body>
 <h1>Digital Styleguide</h1>
     
+<div class="naam">
 <h2>TEKST</h2>
-        <p>Mijn tekst bestaat vooral uit de standaard lettertypes zodat de site rap zou laden voor iedereen.
+     <p>Mijn tekst bestaat vooral uit de standaard lettertypes zodat de site rap zou laden voor iedereen.
             Ik wou dat de titels zouden bestaan uit 'Futura Condensed Medium', maar jammergenoeg lukt het
             niet om die in te brengen in css en heb daarom een letterype gekozen dat er op lijkt
             namelijk Oswald. De  ondertitels
@@ -58,7 +59,9 @@
             </tr>
             </table>
         </p>
-    
+    </div>  
+
+    <div class="naam">
 <h2>KLEUREN</h2>
        <p>We zien 3 relatief warme kleuren en een koude kleur. Dat is op zich meestal al een mooi en geslaagd
         contrast. Daarbij heb ik er ook nog groen bijgesmeten omdat het wat duidt op de natuur. Op de bossen
@@ -101,7 +104,10 @@
         <td>hsl(21, 71%, 62.2%)</td>
     </tr>
     </table>
+    </br>
+    </div>
 
+    <div class="naam">
 <h2>LOGO</h2>
     <p>Mijn logo is een woordlogo, opgebouwd uit de 'hippie letters'.
         Het schenkt herkendaarheid van de hippiejaren en kan op deze manier al 
@@ -111,13 +117,14 @@
         De kleuren waaruit het is opgebouwd zijn het licht oranje en oker van hierboven, met een verloop.
         Het is volledig zelfgemaakt in illustrator.
     </p>
-    <img src="images/woodstock11.svg" alt="logo woodstock">
-
+    <img class= "ws" src="images/woodstock11.svg" alt="logo woodstock">
+</div>
+<div class="naam">
 <h2>KNOPPEN EN ICONEN</h2>
     <p>Het print- en muziek icoontje zouden dat ik gemaakt heb, zouden een 
     ander kleurtje moeten krijgen iedere keer als men er over gaat met de muis.</p> 
     </br> 
-    <img src="images/print111.svg" alt="rinticoontje">
+    <img  class= "print" src="images/print111.svg" alt="rinticoontje">
     </br>
     <p>Mijn knoppen in de navigatiebalk zien er als volgt uit:</p> 
     </br>
@@ -141,9 +148,38 @@
             <img src="images/loep.svg" alt="loep icoontje">
         </div>
     </div>
-    <p>De padding en margin bedragen: <!-- straks verder aanvullen -->
-    </br>
-    Ook de foto's, bij de artiesten, zijn eigenlijk knoppen en als men er op drukt,
+    
+        <p>De padding en margin bedragen: </p>
+        <ul>
+        <li class="gr">voor het volledige navigatiebalk: </li> 
+            <ul>
+            <li>margin-top: 20px; </li>
+            <li>margin-bottom: 20px;</li>
+            <li>padding: 3px;</li>
+            <li> margin-right: 142px;</li>
+            </ul>
+        </br>
+        <li class="gr">voor de onderverdelingen:</li>
+            <ul>
+            <li>margin: 2px;</li>
+            <li>padding-left: 20px;</li>
+            <li>padding-right: 20px;</li>
+            </ul>
+        </br>
+        <li class="gr">voor de laatste onderverdeling met het loepje:</li>
+            <ul>
+            <li>margin: 2px;</li>
+            <li>padding-top: 10px;</li>
+            <li>padding-left: 30px;</li>
+            <li>padding-right: 30px;</li>
+            </ul>
+        </br>
+    </ul>
+    
+</div>
+<div class="naam">
+        <h2>FOTO'S</h2>
+    <p>Ook de foto's, bij de artiesten, zijn eigenlijk knoppen en als men er op drukt,
     komt men terecht op de pagina met wat informatie over de artiest/band.
     Ook die moeten een andere kleur krijgen als men erover gaat,
     met eventueel 'Meer info'. </p> 
@@ -153,7 +189,8 @@
     </div>
     </br>
 
-    <p>Alle illustraties hebben een hoogte van max 350px</p>
 
+    <p>De twee bovenstaande foto's hebben de afmetingen van 360x270 px.</p>
+</div>
 </body>
 </html>
